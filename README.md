@@ -58,7 +58,7 @@ you are expected to:
 ## What will you learn
 
 - A broad and strong understanding of Web Programming
-- Concepts like how the internet works, responsive design, image manipulation via Photoshop, Accessibility, performance of Websites and Web applications (client side), Sear engine optimization cross browser design.
+- Concepts like how the internet works, responsive design, image manipulation via Photoshop, Accessibility, performance of Websites and Web applications (client side), Search engine optimization cross browser design.
 - How to collaborate with teams using Git and how to deploy your projects on GitHub and Surge
 - How to automate some of the front end workflows using Gulp
 - Familiarity in a number of languages, such as HTML, CSS, and JavaScript plus JQuery and other tools such as, SASS, Gulp and Gatsby.
@@ -239,3 +239,6 @@ Resources for students who want to dive deeper on their journey to becoming full
 - [surge.sh](https://surge.sh/) - deploy your frontend projects here (or use github pages)
 - [Klavarog](http://klava.org/) - Improve your typing skills
 - [Wirify](https://www.wirify.com/) - for quickly turning a web page into a wireframe so you can see the big picture instead of all the graphics
+- [Cousera](https://www.coursera.org/learn/html-css-javascript-for-web-developers) - HTML, CSS, and Javascript for Web Developers
+- [Shayhowe](https://learn.shayhowe.com/) -Learn to Code HTML & CSS
+
