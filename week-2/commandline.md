@@ -21,7 +21,7 @@ After following the above steps, the Windows command line should be
 shown (similar to the example below). Typically, Windows starts you at 
 your user directory. In the example below, the user is Baboucarr, so our prompt is C:\Users\Baboucarr>. This prompt tells us we are in the C: drive(the default drive letter of the hard drive and currently in the Baboucarr directory, which is a subdirectory of the Users directory.
 
-![Capture](/home/baboucarr/Documents/web-programming-101/week-2/images/Capture.PNG)
+![Capture](images/Capture.PNG)
 
 ------
 
@@ -43,7 +43,7 @@ Type **dir** at the prompt to list files in the current directory. You should ge
 
 
 
-![DIR](/home/baboucarr/Documents/web-programming-101/week-2/images/DIR.PNG)
+![DIR](images/DIR.PNG)
 
 ------
 
@@ -54,7 +54,7 @@ Type **dir** at the prompt to list files in the current directory. You should ge
 To move into a directory, we use the cd , so to move into the Desktop type **cd desktop** and press enter. 
 Once you've moved into a new directory the prompt should change, so in our example, the prompt is now C:\Users\Baboucarr\Desktop>. Now in this desktop directory, see what files are found in this directory by typing the **dir** command again.
 
-![CD](/home/baboucarr/Documents/web-programming-101/week-2/images/CD.PNG)
+![CD](images/CD.PNG)
 
 ------
 
@@ -77,7 +77,7 @@ move back to the root directory typing **cd\** takes you to the C:\> prompt.
 
 
 
-![move](/home/baboucarr/Documents/web-programming-101/week-2/images/move.PNG)
+![move](images/move.PNG)
 
 ------
 
@@ -91,7 +91,7 @@ Now with your basic understanding of navigating the command line let's
 start creating new directories. To create a directory in the current 
 directory use the **mkdir** command. For example, create a directory called "profile" by typing **mkdir profile** at the prompt. If created successfully you should be returned to the prompt with no error message.
 
-![makedirectory](/home/baboucarr/Documents/web-programming-101/week-2/images/makedirectory.PNG)
+![makedirectory](images/makedirectory.PNG)
 
 ------
 
@@ -105,7 +105,7 @@ Now that we've created a file let's move it into an alternate directory.
  at the prompt, if done successfully you should get a message indicated 
 the file was moved. You could also substitute the move command for the **copy** command to copy the file instead of moving it.
 
-![move](/home/baboucarr/Documents/web-programming-101/week-2/images/move.PNG)
+![move](images/move.PNG)
 
 
 
