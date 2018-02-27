@@ -4,7 +4,7 @@ A. Camara and B. Drammeh - 5th February, 2018.
 
 
 
-## Contents
+## Contents 
 
 [TOC]
 
@@ -34,9 +34,9 @@ Web programming could be divided into three or more categories. You have the fro
 
 **Front End** :: The stuff you see on website or web application in your browser. Front End Developers make use of HTML, CSS, JavaScript, and their relevant frameworks to ensure content is presented effectively and user’s have an excellent experience.
 
-**Back End** :: This refers to the guts of the application which live on the server. They manipulate data appropriately to make sure the Front End has what it needs. This can become very complicated as things scale. Back End Developers make use of programming languages like Node JS, Python, and Ruby (among many others) to work with data.
+**Back End** :: This refers to the guts of the application which live on the server. They manipulate data appropriately to make sure the Front End has what it needs. This can become very complicated as things scale. Back End Developers make use of programming languages like Node JS, Python, and Ruby,PHP  (among many others) to work with data.
 
-**Full Stack** :: This is where a developers marry both sides into one. A Full Stack developer can comfortably work with both the front and back ends. This is what we focus on building you up in both level I and II.
+**Full Stack** :: This is where  developers marry both sides into one. A Full Stack developer can comfortably work with both the front and back ends. This is what we focus on building you up in both level I and II.
 
 
 
@@ -64,7 +64,7 @@ In order for a program to tell the computer what to do, it must execute or run t
 
 **Compiling Code** :: The translation is done ahead of time, so when the code/program runs later, what's running is actually the translated code.
 
-**HTML (Hypertext Markup Language)** :: HTML is the code that is used to structure a web page and its content. HTML is not a programming language, but a Markup Language that is used to structure content.
+**HTML (Hypertext Markup Language)** :: HTML is the code that is used to structure a web page and its content. **HTML is not a programming language**, but a Markup Language that is used to structure content.
 
 HTML is executed in the browser. HTML documents (pages) are delivered as "documents". These are then **parsed**, which turns them into the Document Object Model (DOM) internal representation, within the web browser
 
