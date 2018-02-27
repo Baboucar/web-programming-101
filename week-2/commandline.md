@@ -2,7 +2,7 @@
 
 
 
-![Capture](/home/baboucarr/Documents/web-programming-101/week-2/images/Capture.PNG)
+![Capture](images/Capture.PNG)
 
 ------
 
