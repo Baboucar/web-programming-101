@@ -1,6 +1,8 @@
 ## Getting Started with Windows Command Prompt
 
-![command](/home/baboucarr/Documents/web-programming-101/command.png)
+
+
+![Capture](/home/baboucarr/Documents/web-programming-101/week-2/images/Capture.PNG)
 
 ------
 
@@ -17,9 +19,9 @@ In the olden days before the advent of **Graphical User Interface**  people use 
 
 After following the above steps, the Windows command line should be 
 shown (similar to the example below). Typically, Windows starts you at 
-your user [directory](https://www.computerhope.com/jargon/d/director.htm). In the example below, the user is Mrhope, so our prompt is C:\Users\Mrhope>. This prompt tells us we are in the C: [drive](https://www.computerhope.com/jargon/d/drive.htm) (the default drive letter of the [hard drive](https://www.computerhope.com/jargon/h/harddriv.htm)) and currently in the Mrhope directory, which is a [subdirectory](https://www.computerhope.com/jargon/s/subdirec.htm) of the Users directory.![dos](/home/baboucarr/Documents/web-programming-101/dos.jpg)
+your user directory. In the example below, the user is Baboucarr, so our prompt is C:\Users\Baboucarr>. This prompt tells us we are in the C: drive(the default drive letter of the hard drive and currently in the Baboucarr directory, which is a subdirectory of the Users directory.
 
-
+![Capture](/home/baboucarr/Documents/web-programming-101/week-2/images/Capture.PNG)
 
 ------
 
@@ -37,9 +39,11 @@ your user [directory](https://www.computerhope.com/jargon/d/director.htm). In th
 
 ###  Listing the files
 
-### Type **dir** at the prompt to list files in the current directory. You should get an output similar to the example image below
+Type **dir** at the prompt to list files in the current directory. You should get an output similar to the example image below
 
-![img](file:///home/baboucarr/Documents/web-programming-101/dos2.jpg?lastModify=1519607110)
+
+
+![DIR](/home/baboucarr/Documents/web-programming-101/week-2/images/DIR.PNG)
 
 ------
 
@@ -48,19 +52,19 @@ your user [directory](https://www.computerhope.com/jargon/d/director.htm). In th
 ### Moving into a directory
 
 To move into a directory, we use the cd , so to move into the Desktop type **cd desktop** and press enter. 
-Once you've moved into a new directory the prompt should change, so in our example, the prompt is now C:\Users\Mrhope\Desktop>. Now in this desktop directory, see what files are found in this directory by typing the dir command again.
+Once you've moved into a new directory the prompt should change, so in our example, the prompt is now C:\Users\Baboucarr\Desktop>. Now in this desktop directory, see what files are found in this directory by typing the **dir** command again.
 
-![dos3](/home/baboucarr/Documents/web-programming-101/dos3.jpg)
+![CD](/home/baboucarr/Documents/web-programming-101/week-2/images/CD.PNG)
 
 ------
 
 ### Understand the files
 
-In the Desktop directory, as shown in the above example, there are 23 
-files and 7 directories, representing different file types. In Windows, 
+In the Desktop directory, as shown in the above example, there are 0 
+files and 25 directories, representing different file types. In Windows, 
 you are familiar with files having icons that help represent the file 
 type. In the command line, the same thing is accomplished by the file 
-extensions. For example, "forum posts.txt" is a [text file](https://www.computerhope.com/jargon/t/textfile.htm) because it has a .txt file extension. Time.mp3 is an [MP3 music file](https://www.computerhope.com/jargon/m/mp3.htm) and minecraft.exe is an executable file.
+extensions. For example, " posts.txt" is a text file because it has a .txt file extension. Time.mp3 is an MP3 music file and minecraft.exe is an executable file and index.html is a html file.
 
 
 
@@ -73,11 +77,23 @@ move back to the root directory typing **cd\** takes you to the C:\> prompt.
 
 
 
+![move](/home/baboucarr/Documents/web-programming-101/week-2/images/move.PNG)
+
+------
+
+
+
+
+
 ### Creating a directory
 
 Now with your basic understanding of navigating the command line let's 
 start creating new directories. To create a directory in the current 
-directory use the **mkdir** command. For example, create a directory called "test" by typing **mkdir test** at the prompt. If created successfully you should be returned to the prompt with no error message.
+directory use the **mkdir** command. For example, create a directory called "profile" by typing **mkdir profile** at the prompt. If created successfully you should be returned to the prompt with no error message.
+
+![makedirectory](/home/baboucarr/Documents/web-programming-101/week-2/images/makedirectory.PNG)
+
+------
 
 
 
@@ -85,23 +101,25 @@ directory use the **mkdir** command. For example, create a directory called "tes
 
 Now that we've created a file let's move it into an alternate directory.
  To help make things easier, create another directory for the files. So,
- type **mkdir dir2** to create a new directory in the test directory called dir2. After the new directory has been created, use the move command to move the example.bat file into that directory. To do this type **move example.bat dir2**
+ type **mkdir story** to create a new directory in your current path . After the new directory has been created, use the move command to move any folder in to the  story directory. To do this type **move foldername story**
  at the prompt, if done successfully you should get a message indicated 
-the file was moved. You could also substitute the move command for the copy command to [copy](https://www.computerhope.com/jargon/c/copy.htm) the file instead of moving it.
+the file was moved. You could also substitute the move command for the **copy** command to copy the file instead of moving it.
+
+![move](/home/baboucarr/Documents/web-programming-101/week-2/images/move.PNG)
 
 
 
 ### Rename a file
 
-After the file has been moved into the dir2 directory, move into that 
-directory with the cd command to rename the file. In the dir2 directory 
-use the rename command to rename the example file into an alternate name. Type **rename example.bat first.bat** at the prompt to rename the file to first.bat. Now when using the dir command you should see the first.bat as the only file.
+After the file has been moved into the story directory, move into that 
+directory with the cd command to rename the file. In the story directory 
+use the rename command to rename the example file into an alternate name. Type **rename example1 example2** at the prompt to rename the file to example2. 
 
 
 
 ### Deleting a file
 
-Now that we've had our fun with our new file, delete the file with the del command. Type **del first.bat**
+Now that we've had our fun with our new file, delete the file with the del command. Type **del first.html**
  to delete the first.bat file. If successful, you are returned to the 
 prompt with no errors and the dir command shows no files in the current 
 directory.
